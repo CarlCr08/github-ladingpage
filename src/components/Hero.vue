@@ -84,27 +84,33 @@ export default {
             display: flex;
             flex-direction: column;
             background-color: #fafbfc;
-            padding:24px; 
+            padding:34px; 
             align-items: center;
             box-sizing: border-box;
             border-radius: 4px;
             label{
-                text-align: start;
+                align-self: flex-start;
                 margin-bottom: 5px;
-                font-size: 14px;
+                font-size: 13px;
                 color: #2b3137;
                 font-weight: bold;
+                margin-left: -10px;
             }
             input{
-                width: 376px;
-                height: 26px;
-                padding:10px;
+                width: 350px;
+                height: 30px;
+                padding:15px;
                 border: 1px solid #ccc;
                 border-radius: 6px;
                 background-color: #fafbfc;
                 margin: 10px 0;
             }
             .text-desc{
+                font-size: 12px;
+                text-align: start
+            }
+            .text-terms{
+                margin-top: 30px;
                 font-size: 12px;
                 text-align: start
             }
