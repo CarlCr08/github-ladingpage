@@ -3,6 +3,7 @@
     <Header/>
     <Hero/>
     <Enterprise/>
+    <Companies/>
   </div>
 </template>
 
@@ -11,6 +12,7 @@
 import Header from '@/components/Header.vue'
 import Hero from '@/components/Hero.vue'
 import Enterprise from '@/components/Enterprise.vue'
+import Companies from '@/components/Companies.vue'
 
 export default {
   name: 'Home',
@@ -18,6 +20,7 @@ export default {
     Header,
     Hero,
     Enterprise,
+    Companies,
   }
 }
 </script>

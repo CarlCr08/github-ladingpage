@@ -1,5 +1,6 @@
 <template>
-      <header>
+    <div class="header">
+        <header>
           <div class="menu-container-left">
               <img src="@/assets/GitHub-Mark.png" alt="" srcset="">
               <ul>
@@ -16,6 +17,7 @@
               <button class="button-sign_up">Sign Out</button>
           </div>
       </header>
+    </div>
 </template>
 
 <script>
@@ -25,11 +27,18 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+    .header{
+        width:100%;
+        background-color: #24292e;
+        display: flex;
+        justify-content: center;
+    }
     header{
         width:100%;
+        max-width: 1280px;
         height: 72px;
         background-color: #24292e;
-        padding: 0 34px;
+        padding: 0;
         box-sizing: border-box;
         display: flex;
         justify-content: space-between;
@@ -49,7 +58,7 @@ export default {
                 list-style: none;
                 padding: 0 15px;
                 li{
-                    color: #eee;
+                    color: #fff;
                     padding: 0 10px;
                     margin: 0;
                     font-size: 16px;
