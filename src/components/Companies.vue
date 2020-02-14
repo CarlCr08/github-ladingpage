@@ -50,6 +50,10 @@ export default {
             height: 25px;
             margin: 16px 10px;
             padding: 0 32px;
+            -webkit-backdrop-filter: grayscale(1)!important;
+            backdrop-filter: grayscale(1) !important;
+            -webkit-filter: grayscale(1)!important;
+            filter: grayscale(1)!important;
         }
     }
 </style>
